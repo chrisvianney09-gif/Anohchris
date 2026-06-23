@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anoh Aman Chris Vianney- Portfolio</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+   <header class="header">
+  <div class="container-header">
+    <div class="logo">
+      <h1>Anoh Aman Chris Vianney</h1>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <div class="profile-glow">
+                    <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&h=400&fit=crop" 
+                         alt="Anoh Aman Chris Vianney " 
+                         class="profile-image">
+                </div>
+            </div>
+            
+            <h1 class="hero-title">Anoh Aman Chris Vianney</h1>
+            <p class="hero-subtitle">Étudiant en Informatique | Gamer | Créateur de Contenu a temps partiel</p>
+            <p class="hero-description">
+                Passionné par le développement, le gaming et la création de contenu. Je combine ma passion 
+                pour la technologie avec ma créativité pour créer des projets innovants et des édits TikTok pour mon club.
+            </p>
+            
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="downloadCV()">
+                   <a href="cv simple pour étudiant en recherche de stage bleu (1).pdf" 
+   download 
+   class="btn btn-primary">
+  <svg class="icon" viewBox="0 0 24 24">
+    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+    <polyline points="7 10 12 15 17 10"/>
+    <line x1="12" y1="15" x2="12" y2="3"/>
+  </svg>
+  Télécharger mon CV
+</a>
+
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                    Me Contacter
+                </button>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator" onclick="scrollToSection('skills')">
+            <svg class="icon" style="width: 2rem; height: 2rem; color: #94a3b8;" viewBox="0 0 24 24">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2>Compétences Techniques</h2>
+                <p>Technologies et outils que je maîtrise</p>
+            </div>
+            
+            <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-darker">
+        <div class="container">
+            <div class="section-title orange">
+                <h2>Projets Réalisés</h2>
+                <p>Découvrez mes créations et contributions</p>
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <div class="section-title cyan-orange">
+                <h2>Restons en Contact</h2>
+                <p>Retrouvez-moi sur les réseaux sociaux</p>
+            </div>
+            
+            <div class="contact-info-card">
+                <h3 class="contact-info-title">Informations de Contact</h3>
+                <div class="contact-info-grid">
+                    <div class="contact-info-item">
+                        <div class="contact-icon-wrapper">
+                            <svg class="contact-icon" viewBox="0 0 24 24">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <p class="contact-info-label">Email</p>
+                            <p class="contact-info-value">chrisvianney@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon-wrapper orange">
+                            <svg class="contact-icon orange" viewBox="0 0 24 24">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <p class="contact-info-label">Localisation</p>
+                            <p class="contact-info-value">Abidjan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon-wrapper emerald">
+                            <svg class="contact-icon emerald" viewBox="0 0 24 24">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <p class="contact-info-label">Statut</p>
+                            <p class="contact-info-value">Ouvert aux opportunités de stage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links" id="socialLinks"></div>
+            
+            <p class="contact-footer-text">
+                N'hésitez pas à me contacter pour toute opportunité de collaboration ou de stage !
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 <span class="footer-name">Anoh Aman Chris Vianney</span> - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="p.js"></script>
+</body>
+</html>

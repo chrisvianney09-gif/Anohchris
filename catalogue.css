@@ -1,0 +1,166 @@
+* {
+margin:2 0;
+padding: 0;
+box-sizing: border-box;
+}
+.img{
+    background-image: url("cours/de.jpg");
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+     border-radius: 8px;
+
+
+
+}
+.i{
+    background-image: url("cours/dripc.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ig{
+    background-image: url("cours/da.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+body {
+    background-image: url(cours/CB.jpg);
+}
+.i {
+  transition: transform 0.5s ease-in-out;
+}
+
+.i:hover {
+  transform: scale(1.1); 
+}
+.img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.1); 
+}
+.ig {
+  transition: transform 0.5s ease-in-out;
+}
+
+.ig:hover {
+  transform: scale(1.1); 
+}
+.y{
+    background-image: url("cours/drip1.jpg");
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+     border-radius: 8px;
+
+
+
+}
+.a{
+    background-image: url("cours/drip2.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b{
+    background-image: url("cours/drip3.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.y {
+  transition: transform 0.5s ease-in-out;
+}
+
+.y:hover {
+  transform: scale(1.1); 
+}
+.a{
+  transition: transform 0.5s ease-in-out;
+}
+
+.a:hover {
+  transform: scale(1.1); 
+}
+.b {
+  transition: transform 0.5s ease-in-out;
+}
+
+.b:hover {
+  transform: scale(1.1); 
+}
+
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #e0f7ff;
+  text-shadow: 
+    0 0 5px #00f,
+    0 0 10px #0ff,
+    0 0 20px #99f,
+    0 0 40px #ccf;
+  border-right: 2px solid #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+             shimmer 2s infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes shimmer {
+  0% { text-shadow: 0 0 5px #00f, 0 0 10px #0ff; }
+  50% { text-shadow: 0 0 15px #0ff, 0 0 30px #99f; }
+  100% { text-shadow: 0 0 5px #00f, 0 0 10px #0ff; }
+}

@@ -1,0 +1,108 @@
+* {
+margin:2 0;
+padding: 0;
+box-sizing: border-box;
+}
+.card-A{
+    background-image: url("cours/class2.jpg");
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.card-Ab{
+    background-image: url("cours/class3.jpg");
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-bl{
+    background-image: url("cours/class4.jpg");
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+body {
+    background-color: bisque;
+}
+.card-A{
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-A:hover {
+  transform: scale(1.1); 
+}
+.card-Ab{
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-Ab:hover {
+  transform: scale(1.1); 
+}
+.card-bl{
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-bl:hover {
+  transform: scale(1.1); 
+}
+.ez{
+    background-image: url("cours/t.png");
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.e{
+    background-image: url("cours/fe.jpg");
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.ea{
+    background-image: url("cours/f.jpg");
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.e{
+  transition: transform 0.5s ease-in-out;
+}
+.e:hover {
+  transform: scale(1.1); 
+}
+.ea{
+  transition: transform 0.5s ease-in-out;
+}
+
+.ea:hover {
+  transform: scale(1.1); 
+}
+.ez{
+  transition: transform 0.5s ease-in-out;
+}
+
+.ez:hover {
+  transform: scale(1.1); 
+}
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #6a0dad, 0 0 20px #ffcc00, 0 0 30px #00f;
+}

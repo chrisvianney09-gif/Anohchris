@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Convertisseur d'unités</title>
+  <link rel="stylesheet" href="conv.css">
+</head>
+<body>
+  <h1>Convertisseur d'unités</h1>
+  
+  <div class="converter">
+    <input type="number" id="inputValue" placeholder="Entrez une valeur">
+    
+    <select id="fromUnit">
+      <option value="m">Mètres</option>
+      <option value="km">Kilomètres</option>
+      <option value="cm">Centimètres</option>
+    </select>
+    
+    <span>→</span>
+    
+    <select id="toUnit">
+      <option value="m">Mètres</option>
+      <option value="km">Kilomètres</option>
+      <option value="cm">Centimètres</option>
+    </select>
+    
+    <button onclick="convert()">Convertir</button>
+    
+    <p id="result"></p>
+  </div>
+
+  <script src="Conv.js"></script>
+</body>
+</html>

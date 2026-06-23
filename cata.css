@@ -1,0 +1,151 @@
+* {
+margin:2 0;
+padding: 0;
+box-sizing: border-box;
+}
+.im{
+    background-image: url("cours/Cos2.jpg");
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+     border-radius: 8px;
+
+
+
+}
+.il{
+    background-image: url("cours/Cos3.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ik{
+    background-image: url("cours/Cos4.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+body {
+    background-image: url(cours/v.jpg);
+}
+.ik {
+  transition: transform 0.5s ease-in-out;
+}
+
+.ik:hover {
+  transform: scale(1.1); 
+}
+.il {
+  transition: transform 0.5s ease-in-out;
+}
+
+.il:hover {
+  transform: scale(1.1); 
+}
+.im {
+  transition: transform 0.5s ease-in-out;
+}
+
+.im:hover {
+  transform: scale(1.1); 
+}
+.z{
+    background-image: url("cours/co2.jpg");
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+     border-radius: 8px;
+
+
+
+}
+.ze{
+    background-image: url("cours/co1.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.co{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.za{
+    background-image: url("cours/co3.jpg");
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+}
+.ze {
+  transition: transform 0.5s ease-in-out;
+}
+
+.ze:hover {
+  transform: scale(1.1); 
+}
+.za{
+  transition: transform 0.5s ease-in-out;
+}
+
+.za:hover {
+  transform: scale(1.1); 
+}
+.z {
+  transition: transform 0.5s ease-in-out;
+}
+
+.z:hover {
+  transform: scale(1.1); 
+}
+h1 {
+  font-family: 'Uncial Antiqua', fantasy;
+  font-size: 3.5em;
+  background: radial-gradient(circle at 50% 50%, #ffffff, #6a00ff, #000);
+  -webkit-text-fill-color: transparent;
+  animation: galaxy 10s linear infinite;
+  text-align: center;
+  -webkit-background-clip: Text ;
+
+}
+
+@keyframes galaxy {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
